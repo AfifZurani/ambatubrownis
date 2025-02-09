@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+.container-item{
+    width: 20%;
+    height: 400px;
+    display: flex; 
+    flex-direction: column;
+}
+.header{
+    text-align: center;
+    font-size: 72px;
+    background-color: rgb(20, 250, 135);
+    padding: 1em;
+}
+.paragraph{
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    padding: 0.5em;
+}
+.center{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.best-seller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 36px;
+    font-size: 32px;
+    text-align: center;
+}
+.best-seller img{
+    border: 6px solid brown;
+    padding: 10px;
+    border-radius: 20px;
+}
+.kitchen2{
+    padding: 2rem;
+}
+.product{
+    text-align: center;
+    margin-top: 56px;
+    font-size: 30px;
+}
+table, tr, th, td{
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 12px;
+    font-size: 20px;
+}
+th {
+    background-color: rgb(243, 151, 12);
+}
+.testimony{
+    width: 100%;
+    padding: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimony h1{
+    font-size: 35px;
+}
+.kitchen{
+    background-image: url('./assets/naomi-hebert-MP0bgaS_d1c-unsplash.jpg');
+    background-size:  cover;
+    background-position: center;
+    padding: 6rem;
+}
+.container-item img{
+    width: 400px;
+    height: 200px;
+}
+
+.main-header{
+    background-color: rgb(209, 137, 28);
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+}
+
+.header-info{
+    text-align: left;
+    color: rgb(219, 84, 75);
+    padding: 0px;
+    margin: 14px;
+    position: absolute;
+    left: 0px;
+}
+
+.header-info a{
+    padding: 0;
+    text-decoration: none;
+}
+
+.header-info a:hover{
+    background-color: transparent;
+}
+
+footer{
+    background-image: linear-gradient(#6ea2f5, #3bd952);
+}
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-footer{
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.right-footer{
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.center-footer{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-left{
+    color: rgb(219, 84, 75);
+    text-align: left;
+    width: 100%;
+}
+
+.info-right{
+    color: rgb(219, 84, 75);
+    text-align: right;
+    width: 100%;
+}
+
+.info-center{
+    color: rgb(219, 84, 75);
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid rgb(146, 168, 133);
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(202, 198, 198);
+    padding: 15px;
+    float: left;
+}
+
+a:hover{
+    background-color: burlywood;
+}
+
+body{
+    margin-top: 10%;
+}
+
+.brownis-list{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab{
+    background-color: gainsboro;
+    width: 400px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+h1.name{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+h2.price{
+    font-size: 38px;
+    color: black;
+}
+
+.list{
+    list-style-type: disc;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.list li{
+    margin-top: 20px;
+    color: black;
+}
+
+hr {
+    height: 7px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(219, 84, 75);
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+div.about{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: blanchedalmond;
+    width: 80%;
+}
+
+.about{
+    text-align: left;
+    color: black;
+    padding: 10px;
+    width: 100%;
+}
+
+div.image-about{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+img.about-us{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button {
+    background-color: rgb(219, 84, 75, 0.616);
+    border: none;
+    color: white;
+    font-size: 20pt;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+button:hover{
+    background-color: rgb(219, 84, 75);
+    transform: scale(1.2, 1.2);
+}
+
+button:active{
+    transform: translateY(4px);
+    box-shadow: 0px 4px gainsboro;
+}
+
+.fa-map-marked-alt, .fa-map-pin, .fa-address-book, .fa-phone-alt, .fa-at{
+    margin: 6px;
+    color: rgb(cyan lightgreen orange);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: antiquewhite;
+}
+
+.dropdown-item:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+a .dropdown-item{
+    min-width: 160px;
+    text-align: left;
+}
+
+li .dropdown-item:hover a .dropdown-item{
+    text-align: left;
+    color: gainsboro;
+}
+
+@media (max-width: 1366px) {
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-item{
+        width: 50%;
+        height: auto;
+    }
+
+    .container-item img{
+        width: 100%;
+        height: 120px;
+    }
+    
+    .center{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .testimony{
+        padding: 1.5rem;
+    }
+
+    .testimony img{
+        width: 50%;
+    }
+    div.about {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+
+}
